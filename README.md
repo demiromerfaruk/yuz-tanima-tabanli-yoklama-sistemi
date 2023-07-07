@@ -4,19 +4,19 @@ Yoklama almak için yüz tanıma kullanan bir python GUI entegre katılım siste
 
 Bu python projemde yüz tanıma tekniğini kullanarak yoklama alan bir yoklama sistemi yaptım. Ayrıca GUI (Grafik kullanıcı arayüzü) ile entegre ettim, böylece herkes tarafından kullanımı kolay olabilir. Bu proje için GUI de tkinter kullanılarak python üzerinde yapılmıştır.
 
-KULLANILAN TEKNOLOJİ:
+## :zap: Kullanılan Teknoloji:
 1) tüm GUI için tkinter
 2) Görüntü almak ve yüz tanıma için OpenCV (cv2.face.LBPHFaceRecognizer_create())
 3) Diğer amaçlar için CSV, Numpy, Pandas, datetime vb.
 
-ÖZELLİKLERİ:
+###  :package: Özellikleri:
 1) Etkileşimli GUI desteği ile kullanımı kolaydır.
 2) Yeni kişi kaydı için şifre koruması.
 3) Kayıt sırasında öğrencilerin bilgileri için CSV dosyası oluşturur/günceller.
 4) Katılım için her gün yeni bir CSV dosyası oluşturur ve katılımı uygun tarih ve saatle işaretler.
 5) Ana ekranda gün için canlı katılım güncellemelerini kimlik, ad, tarih ve saat ile tablo biçiminde görüntüler.
 
-Yüklenmesi gereken paketler:
+###  :electric_plug: Yüklenmesi Gereken Paketler:
 
 -tk-tools
 -opencv-contrib-python
@@ -30,4 +30,12 @@ Yüklenmesi gereken paketler:
 
 
 
-Ekran Görüntüsü
+##  :camera: Ekran Görüntüleri
+
+
+
+
+![2](https://github.com/demiromerfaruk/yuz-tanima-tabanli-yoklama-sistemi/assets/138582675/8d59ae3c-2e5a-454c-b2da-c2a0a8d00b5c)
+![1](https://github.com/demiromerfaruk/yuz-tanima-tabanli-yoklama-sistemi/assets/138582675/e426056e-7f37-4b08-82d5-74e84021a223)
+
+
