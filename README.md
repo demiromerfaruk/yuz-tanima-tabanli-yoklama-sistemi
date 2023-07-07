@@ -36,6 +36,5 @@ Bu python projemde yüz tanıma tekniğini kullanarak yoklama alan bir yoklama s
 
 
 ![2](https://github.com/demiromerfaruk/yuz-tanima-tabanli-yoklama-sistemi/assets/138582675/8d59ae3c-2e5a-454c-b2da-c2a0a8d00b5c)
-![1](https://github.com/demiromerfaruk/yuz-tanima-tabanli-yoklama-sistemi/assets/138582675/e426056e-7f37-4b08-82d5-74e84021a223)
 
 
