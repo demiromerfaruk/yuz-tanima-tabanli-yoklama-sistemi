@@ -1,5 +1,33 @@
-# Welcome to GitHub Desktop!
+# Yüz Tanıma Tabanlı Katılım Sistemi
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+Yoklama almak için yüz tanıma kullanan bir python GUI entegre katılım sistemi.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+Bu python projemde yüz tanıma tekniğini kullanarak yoklama alan bir yoklama sistemi yaptım. Ayrıca GUI (Grafik kullanıcı arayüzü) ile entegre ettim, böylece herkes tarafından kullanımı kolay olabilir. Bu proje için GUI de tkinter kullanılarak python üzerinde yapılmıştır.
+
+KULLANILAN TEKNOLOJİ:
+1) tüm GUI için tkinter
+2) Görüntü almak ve yüz tanıma için OpenCV (cv2.face.LBPHFaceRecognizer_create())
+3) Diğer amaçlar için CSV, Numpy, Pandas, datetime vb.
+
+ÖZELLİKLERİ:
+1) Etkileşimli GUI desteği ile kullanımı kolaydır.
+2) Yeni kişi kaydı için şifre koruması.
+3) Kayıt sırasında öğrencilerin bilgileri için CSV dosyası oluşturur/günceller.
+4) Katılım için her gün yeni bir CSV dosyası oluşturur ve katılımı uygun tarih ve saatle işaretler.
+5) Ana ekranda gün için canlı katılım güncellemelerini kimlik, ad, tarih ve saat ile tablo biçiminde görüntüler.
+
+Yüklenmesi gereken paketler:
+
+-tk-tools
+-opencv-contrib-python
+-datetime
+-pytest-shutil
+-python-csv
+-numpy
+-pillow 
+-pandas
+-times
+
+
+
+Ekran Görüntüsü
